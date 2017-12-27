@@ -6,10 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="Xer.Cqrs.EventStack" Version="0.1.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\Xer.DomainDriven\Src\Xer.DomainDriven.csproj" />
+    <PackageReference Include="Xer.DomainDriven" Version="0.1.0" />
   </ItemGroup>
 
 </Project>
